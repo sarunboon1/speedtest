@@ -11,7 +11,7 @@ getprofile(){
         profile=`sshpass -p $pass ssh -o StrictHostKeyChecking=no $user@10.67.121.115 "ip address print"`
         profile1=`echo "$profile" | awk '{print $5}'`
         profile2=`echo "$profile1" | awk 'END{print}'`
-        echo $profile2
+        echo $profile2 xxxxxxxx
 }
 testspeed()
 {
