@@ -14,3 +14,4 @@ do
 done
 ##################################################################################
 echo "speedtestcsv private" | mail -s "CAT BB Speedtest Private Account ${now} $timestamp" xxx@xxx -A ${now}.zip
+ergoijiojregoij
